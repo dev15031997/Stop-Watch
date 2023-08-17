@@ -1,0 +1,56 @@
+body{
+    background-color:rgba(0, 0, 0, 0.685);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container
+{
+    color:#d7dfe4;
+}
+
+.digit
+{
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.txt
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#btn-container
+{
+    width: 100%;
+    margin-top:40px;
+    text-align: center;
+}
+
+.btn
+{
+    cursor: pointer;
+    padding: 7px 25px;
+    margin:0px 10px;
+    color:white;
+    border:0px;
+    font-size:15px;
+}
+
+#start
+{
+    background-color:rgba(0, 128, 0, 0.753);
+}
+
+#stop
+{
+    background-color: rgba(255, 0, 0, 0.61);
+}
+
+#reset
+{
+    background-color: rgba(0, 0, 255, 0.507);   
+}
